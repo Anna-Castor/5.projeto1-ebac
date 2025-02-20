@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    color: white;
+    background-color: rgb(19 35 88);
+    padding: 20px 0;
+    font-family: "Bungee", serif;
+}
+
+.container {
+    border: 2px solid pink;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+/*Configuração responsiva importante para fazer ajuste nas telas dos monitores*/
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#contato .container {
+    display: block;
+}
+
+.metodos-de-contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+body {
+    background-color: rgb(234, 239, 240);
+}
+
+section {
+    padding: 24px;
+}
+
+section h2, h3, h5 {
+    font-family: "Bungee", serif;
+    color: rgb(19 35 88);
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(63, 88, 137);
+    text-align: justify;
+    font-size: 14px;
+}
+
+section img {
+    margin-right: 20px;
+}
+
+.logos-jogos ul {
+    list-style-type: none;
+}
+
+.logos-jogos li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.logos-jogos img {
+    height: 24px;
+}
+
+
+.redes-sociais img {
+    height: 24px;
+}
+
+.redes-sociais li {
+    display: inline;
+    list-style-type: none;
+    height:18px;
+    width: 30px;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+#contato p {
+    font-size: 10px;
+}
+
+button {
+    background-color: rgb(19 35 88);
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(37, 93, 156);
+}
+
+footer,p {
+    background-color: rgb(19 35 88);
+    margin: auto;
+    padding: 5px;
+}
+
+p { 
+    color: white;
+    font-size: 12px;
+    margin-left: 11.5%;
+}
