@@ -14,8 +14,6 @@ header {
 }
 
 .container {
-    border: 2px solid pink;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -111,21 +109,28 @@ form input, form textarea, form button {
 button {
     background-color: rgb(19 35 88);
     color: white;
+    font-family: "Bungee", serif;
 }
 
 button:hover {
     cursor: pointer;
+    font-family: "Bungee", serif;
     background-color: rgb(37, 93, 156);
 }
 
-footer,p {
+footer {
     background-color: rgb(19 35 88);
     margin: auto;
     padding: 5px;
 }
 
 p { 
+    background-color: ;
     color: white;
     font-size: 12px;
-    margin-left: 11.5%;
+}
+
+footer p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
