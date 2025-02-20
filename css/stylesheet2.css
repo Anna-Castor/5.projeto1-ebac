@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    color: white;
+    background-color: rgb(50 126 90);
+    padding: 20px 0;
+    font-family: "Rubik", serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+/*Configuração responsiva importante para fazer ajuste nas telas dos monitores*/
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#contato .container {
+    display: block;
+}
+
+.metodos-de-contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+body {
+    background-color: rgb(234, 239, 240);
+}
+
+section {
+    padding: 24px;
+}
+
+section h2, h3, h5 {
+    font-family: "Rubik", serif;
+    color: rgb(50 126 90);
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(63, 88, 137);
+    text-align: justify;
+    font-size: 14px;
+}
+
+section img {
+    margin-right: 20px;
+}
+
+.logos-jogos ul {
+    list-style-type: none;
+}
+
+.logos-jogos li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.logos-jogos img {
+    height: 24px;
+}
+
+
+.redes-sociais img {
+    height: 24px;
+}
+
+.redes-sociais li {
+    display: inline;
+    list-style-type: none;
+    height:18px;
+    width: 30px;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+#contato p {
+    font-size: 10px;
+}
+
+button {
+    background-color: rgb(50 126 90);
+    color: white;
+    font-family: "Rubik", serif;
+}
+
+button:hover {
+    cursor: pointer;
+    font-family: "Bungee", serif;
+    background-color: rgb(31, 235, 197);
+}
+
+footer {
+    background-color: rgb(50 126 90);
+    margin: auto;
+    padding: 5px;
+}
+
+p { 
+    background-color: ;
+    color: white;
+    font-size: 12px;
+}
+
+footer p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
